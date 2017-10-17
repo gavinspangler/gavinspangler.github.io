@@ -94,6 +94,19 @@ h2:after {
 }
 
 
+/* PARAGRAPHS */
+
+.box p {
+  font-size: 90%;
+  line-height: 145%;
+}
+
+.box .biography {
+  font-size: 100%;
+  padding-top: 10%;
+}
+
+
 /* LINKS */
 
 a:link, a:visited {
@@ -171,8 +184,8 @@ header {
   float: left;
   height: 100px;
   margin-top: 20px;
-  padding-right: 8px;
-  padding-top: 3px;
+  padding-right: 9px;
+  padding-top: 4px;
   width: auto;
 }
 
@@ -221,4 +234,13 @@ header {
 .mobile-nav-icon i {
   color: #fff;
   font-size: 200%;
+}
+
+
+/* About me */
+
+.profile-picture {
+  border-radius: 50%;
+  margin-left: 10%;
+  width: 80%;
 }

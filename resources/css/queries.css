@@ -59,6 +59,10 @@
   h2 {
     font-size: 150%
   }
+  .profile-picture {
+    margin-left: 15%;
+    width: 70%;
+  }
 }
 
 

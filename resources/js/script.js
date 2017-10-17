@@ -13,4 +13,11 @@ $(document).ready(function() {
       icon.removeClass('ion-close-round');
     }
   });
+
+  /* scroll on buttons */
+  $('.js--scroll-to-start').click(function() {
+    $('html, body').animate({
+      scrollTop: $('.js--section-about').offset().top
+    }, 1000)
+  });
 });
